@@ -4,252 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rutuja Kawade - Software Engineer specializing in AI-powered systems, cloud infrastructure, and distributed systems.">
-    <title>Rutuja Kawade - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Rutuja Kawade</title>
+    <!-- Standard system fonts / Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/portfolio/m.png">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">RK.</div>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Rutuja Kawade</a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#achievements">achievements</a></li>
+                <li><a href="resume.pdf" target="_blank">cv</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="home" class="hero section">
-            <div class="container hero-container">
-                <div class="hero-content">
-                    <div class="hero-text">
-                        <span class="greeting">Hi, I am</span>
-                        <h1>Rutuja Kawade</h1>
-                        <p class="subtitle">Software Engineer | AI Systems | Cloud Infrastructure</p>
-                        <p class="bio">
-                            Building AI-powered enterprise systems and distributed cloud infrastructure. 
-                            Currently at Kroger Technology & Digital working on intelligent ops automation.
-                        </p>
-                        <div class="contact-info">
-                            <a href="mailto:rutujakawade24@gmail.com" class="btn btn-primary">Let's Connect</a>
-                            <div class="socials">
-                                <a href="https://linkedin.com/in/rutujakawade/" target="_blank" class="social-icon">LinkedIn</a>
-                                <a href="https://github.com/rutujak24" target="_blank" class="social-icon">GitHub</a>
-                            </div>
-                        </div>
+    <main class="container">
+        <!-- Hero / About Section combined -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="name-title">Rutuja Kawade</h1>
+                <p class="subtitle">MS in Computer Science @ Georgia Tech · Atlanta, GA</p>
+                <p class="bio">
+                    Hi, I'm Rutuja. I'm an MS CS student at Georgia Tech, specializing in Computing Systems and Machine Learning. 
+                    I have three years of industry experience as a Software Development Engineer II at Rakuten Symphony, 
+                    where I built scalable Kubernetes-native platforms. Currently, I'm at Kroger Technology & Digital working on intelligent ops automation.
+                </p>
+                <p class="bio">
+                    My interests span across software engineering, distributed systems, data science, and open source technologies. 
+                    I am passionate about building scalable, secure systems that create real-world impact.
+                </p>
+                <div class="contact-links">
+                    <p>Reach me at <a href="mailto:rutujakawade24@gmail.com">rutujakawade24@gmail.com</a>, or through the links below.</p>
+                    <div class="socials">
+                        <a href="mailto:rutujakawade24@gmail.com" class="social-icon">Email</a>
+                        <a href="https://linkedin.com/in/rutujakawade/" target="_blank" class="social-icon">LinkedIn</a>
+                        <a href="https://github.com/rutujak24" target="_blank" class="social-icon">GitHub</a>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <img src="assets/img/rutuja.jpeg" alt="Rutuja Kawade">
-                </div>
+            </div>
+            <div class="hero-image">
+                <!-- Image blends seamlessly due to no borders in CSS -->
+                <img src="assets/img/rutuja.jpeg" alt="Rutuja Kawade">
             </div>
         </section>
 
-        <!-- About Section -->
-        <section id="about" class="about section">
-            <div class="container">
-                <h2 class="section-title">About Me</h2>
-                <div class="about-content grid-layout">
-                    <div class="about-text glass-card">
-                        <p>
-                            I'm a passionate software engineer specializing in AI-powered systems, distributed cloud infrastructure, 
-                            and enterprise technology solutions. Currently pursuing my Master's in Computer Science at Georgia Tech 
-                            with a focus on Computing Systems and Machine Learning.
-                        </p>
-                        <p>
-                            At Kroger Technology & Digital, I'm building intelligent ops automation platforms that transform how 
-                            enterprises detect and resolve infrastructure issues. My experience spans from building scalable cloud 
-                            storage systems at Rakuten to contributing to Microsoft's remote learning platforms.
-                        </p>
-                        <p>
-                            I'm driven by solving complex engineering challenges, exploring cutting-edge AI technologies, and 
-                            contributing to open-source communities.
-                        </p>
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Georgia Institute of Technology</h3>
+                        <p class="role">MS in Computer Science</p>
+                        <p class="date">2024 - 2026</p>
+                        <p>Specialization: Computing Systems & Machine Learning • Graduate Teaching Assistant</p>
+                        <p>GPA: 3.7/4.0</p>
                     </div>
-                    <div class="domains glass-card">
-                        <h3>Domains of Interest</h3>
-                        <ul class="interests-list">
-                            <li><span class="icon">💻</span> Computing Systems</li>
-                            <li><span class="icon">🤖</span> Machine Learning & AI</li>
-                            <li><span class="icon">☁️</span> Cloud Infrastructure</li>
-                            <li><span class="icon">⚡</span> Software Development</li>
-                        </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Pune Institute of Computer Technology</h3>
+                        <p class="role">B.E. in Computer Engineering (Hons. in Data Science)</p>
+                        <p class="date">2018 - 2022</p>
+                        <p>GPA: 9.3/10.0</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Experience Section -->
-        <section id="experience" class="experience section">
-            <div class="container">
-                <h2 class="section-title">Experience</h2>
-                <div class="timeline">
-                    <!-- Kroger -->
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Software Development Engineer</h3>
-                            <p class="company">Kroger Technology & Digital (via IBM) <span>| June 2026 – Present</span></p>
-                            <ul>
-                                <li>Building <strong>KOAP</strong>, an AI-powered enterprise ops agent platform that automates data pipeline failure detection, root cause analysis, and incident routing.</li>
-                                <li>Integrated with ServiceNow, Microsoft Teams, and Kroger's internal LLM gateway (KrAIG) using Python, CrewAI multi-agent orchestration, FastAPI, PostgreSQL, and FAISS.</li>
-                                <li>Developing <strong>Talent Compass</strong>, an enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</li>
-                            </ul>
-                        </div>
+        <section id="experience" class="section">
+            <h2 class="section-title">experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Kroger Technology & Digital (via IBM)</h3>
+                        <p class="role">Software Development Engineer</p>
+                        <p class="date">June 2026 – Present</p>
+                        <ul>
+                            <li>Building <strong>KOAP</strong>, an AI-powered enterprise ops agent platform that automates data pipeline failure detection, root cause analysis, and incident routing.</li>
+                            <li>Integrated with ServiceNow, Microsoft Teams, and Kroger's internal LLM gateway (KrAIG) using Python, CrewAI multi-agent orchestration, FastAPI, PostgreSQL, and FAISS.</li>
+                            <li>Developing <strong>Talent Compass</strong>, an enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</li>
+                        </ul>
                     </div>
-                    <!-- Rakuten -->
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Software Engineer II</h3>
-                            <p class="company">Rakuten Cloud (Robin.io) <span>| July 2022 – July 2025</span></p>
-                            <ul>
-                                <li>Worked on private cloud infrastructure and delivered Cloud Native Storage (CNS) to Google Marketplace with optimized installer and operator code used across 40,000+ installations.</li>
-                                <li>Developed quorum-based replication for PostgreSQL, migrating from master-slave to leaderless architecture to improve fault tolerance and write availability.</li>
-                                <li>Enhanced planner with asyncio parallelization and Python GIL optimizations, enabling 200% increase in cluster capacity.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Rakuten Cloud (Robin.io)</h3>
+                        <p class="role">Software Engineer II</p>
+                        <p class="date">July 2022 – July 2025</p>
+                        <ul>
+                            <li>Worked on private cloud infrastructure and delivered Cloud Native Storage (CNS) to Google Marketplace with optimized installer and operator code used across 40,000+ installations.</li>
+                            <li>Developed quorum-based replication for PostgreSQL, migrating from master-slave to leaderless architecture to improve fault tolerance and write availability.</li>
+                            <li>Enhanced planner with asyncio parallelization and Python GIL optimizations, enabling 200% increase in cluster capacity.</li>
+                        </ul>
                     </div>
-                    <!-- Microsoft -->
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Project Contributor</h3>
-                            <p class="company">Microsoft <span>| Oct 2021 – Dec 2021</span></p>
-                            <ul>
-                                <li>Built <strong>Kaksha</strong>, a scalable web platform for remote learning during the pandemic as part of Microsoft's Engage program.</li>
-                                <li>Implemented collaborative whiteboard using JavaScript and jQuery with real-time synchronization.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Microsoft</h3>
+                        <p class="role">Project Contributor</p>
+                        <p class="date">Oct 2021 – Dec 2021</p>
+                        <ul>
+                            <li>Built <strong>Kaksha</strong>, a scalable web platform for remote learning during the pandemic as part of Microsoft's Engage program.</li>
+                        </ul>
                     </div>
-                    <!-- Avaya -->
-                    <div class="timeline-item glass-card">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-content">
-                            <h3>Software Development Intern</h3>
-                            <p class="company">Avaya Inc <span>| June 2021 – Sep 2021</span></p>
-                            <ul>
-                                <li>Developed REST API services for Communication Manager in Spring Boot (Java).</li>
-                                <li>Automated report generation for Content Management Systems (CMS) and ODBC.</li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Avaya Inc</h3>
+                        <p class="role">Software Development Intern</p>
+                        <p class="date">June 2021 – Sep 2021</p>
+                        <ul>
+                            <li>Developed REST API services for Communication Manager in Spring Boot (Java).</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="projects section">
-            <div class="container">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card glass-card">
-                        <h3>KOAP - Enterprise AI Ops</h3>
-                        <p class="tags"><span>Python</span><span>CrewAI</span><span>FastAPI</span><span>Azure</span></p>
-                        <p>AI-powered enterprise operations agent platform automating data pipeline failure detection, root cause analysis, and incident routing.</p>
-                    </div>
-                    <!-- Project 2 -->
-                    <div class="project-card glass-card">
-                        <h3>Talent Compass</h3>
-                        <p class="tags"><span>Django</span><span>ReactJS</span><span>Kubernetes</span></p>
-                        <p>Enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</p>
-                    </div>
-                    <!-- Project 3 -->
-                    <div class="project-card glass-card">
-                        <h3>FileSync</h3>
-                        <p class="tags"><span>C++</span><span>gRPC</span><span>Protobuf</span></p>
-                        <p>Low-latency distributed file synchronization system with bidirectional streaming RPCs, incremental updates, and anti-entropy repair.</p>
-                    </div>
-                    <!-- Project 4 (Old) -->
-                    <div class="project-card glass-card">
-                        <h3>Auto Certificate Generator</h3>
-                        <p class="tags"><span>Python</span><span>Excel Automation</span></p>
-                        <p>Python script which reads from excel and auto-generates certificates from a template, distributing them via SMTP.</p>
-                    </div>
-                    <!-- Project 5 (Old) -->
-                    <div class="project-card glass-card">
-                        <h3>COVID 19 Analysis</h3>
-                        <p class="tags"><span>Data Science</span><span>EDA</span></p>
-                        <p>Exploratory Data Analysis of COVID 19 showing predictions, visualizations, rate of infections, and peaks across 5 countries.</p>
-                    </div>
-                    <!-- Project 6 (Old) -->
-                    <div class="project-card glass-card">
-                        <h3>Social Distancing Detector</h3>
-                        <p class="tags"><span>OpenCV</span><span>Computer Vision</span></p>
-                        <p>Project based on OpenCV to dynamically detect and monitor social distancing violations using a video feed.</p>
-                    </div>
+        <section id="projects" class="section">
+            <h2 class="section-title">projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>KOAP - Enterprise AI Ops</h3>
+                    <p class="tags"><span>Python</span><span>CrewAI</span><span>FastAPI</span><span>Azure</span></p>
+                    <p>AI-powered enterprise operations agent platform automating data pipeline failure detection, root cause analysis, and incident routing.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Talent Compass</h3>
+                    <p class="tags"><span>Django</span><span>ReactJS</span><span>Kubernetes</span></p>
+                    <p>Enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</p>
+                </div>
+                <div class="project-card">
+                    <h3>FileSync</h3>
+                    <p class="tags"><span>C++</span><span>gRPC</span><span>Protobuf</span></p>
+                    <p>Low-latency distributed file synchronization system with bidirectional streaming RPCs, incremental updates, and anti-entropy repair.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Auto Certificate Generator</h3>
+                    <p class="tags"><span>Python</span><span>Excel</span></p>
+                    <p>Python script which reads from excel and auto-generates certificates from a template, distributing them via SMTP.</p>
                 </div>
             </div>
         </section>
 
         <!-- Achievements Section -->
-        <section id="achievements" class="achievements section">
-            <div class="container">
-                <h2 class="section-title">Achievements & Certifications</h2>
-                <div class="achievements-grid">
-                    <div class="cert-card glass-card">
-                        <img src="assets/img/portfolio/ml (1).png" alt="Stanford ML">
-                        <h4>Stanford ML</h4>
-                    </div>
-                    <div class="cert-card glass-card">
-                        <img src="assets/img/portfolio/aws.png" alt="AWS ML">
-                        <h4>AWS Machine Learning</h4>
-                    </div>
-                    <div class="cert-card glass-card">
-                        <img src="assets/img/portfolio/IBM1.png" alt="IBM Python Data Science">
-                        <h4>IBM Python Data Science</h4>
-                    </div>
-                    <div class="cert-card glass-card">
-                        <img src="assets/img/portfolio/pcap.png" alt="PCAP Python">
-                        <h4>PCAP Python</h4>
-                    </div>
-                    <div class="cert-card glass-card">
-                        <img src="assets/img/portfolio/py.png" alt="Python Specialization">
-                        <h4>Python Specialization</h4>
-                    </div>
-                    <div class="cert-card glass-card">
-                        <img src="assets/img/portfolio/medal2.jpeg" alt="Medals">
-                        <h4>Awards & Medals</h4>
-                    </div>
+        <section id="achievements" class="section">
+            <h2 class="section-title">achievements & certifications</h2>
+            <div class="achievements-grid">
+                <div class="cert-card">
+                    <img src="assets/img/portfolio/ml (1).png" alt="Stanford ML">
+                    <h4>Stanford ML</h4>
+                </div>
+                <div class="cert-card">
+                    <img src="assets/img/portfolio/aws.png" alt="AWS ML">
+                    <h4>AWS Machine Learning</h4>
+                </div>
+                <div class="cert-card">
+                    <img src="assets/img/portfolio/IBM1.png" alt="IBM Python Data Science">
+                    <h4>IBM Python Data Science</h4>
+                </div>
+                <div class="cert-card">
+                    <img src="assets/img/portfolio/pcap.png" alt="PCAP Python">
+                    <h4>PCAP Python</h4>
                 </div>
             </div>
         </section>
 
-        <!-- Resume Section -->
-        <section id="resume" class="resume section">
-            <div class="container">
-                <h2 class="section-title">Resume</h2>
-                <div class="glass-card resume-container">
-                    <div class="resume-actions">
-                        <a href="resume.pdf" target="_blank" class="btn btn-primary">View Full Resume</a>
-                    </div>
-                    <iframe src="resume.pdf" type="application/pdf" width="100%" height="800px"></iframe>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
-            <div class="container">
-                <div class="glass-card contact-card text-center">
-                    <h2 class="section-title">Get in Touch</h2>
-                    <p>I'm always interested in discussing interesting projects, research opportunities, and new challenges.</p>
-                    <a href="mailto:rutujakawade24@gmail.com" class="email-link">rutujakawade24@gmail.com</a>
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container footer-content">
             <p>&copy; 2026 Rutuja Kawade. All rights reserved.</p>
         </div>
     </footer>
