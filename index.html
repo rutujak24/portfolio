@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Rutuja Kawade - Software Engineer specializing in AI-powered systems, cloud infrastructure, and distributed systems.">
     <title>Rutuja Kawade</title>
-    <!-- Standard system fonts / Roboto -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Modern sans-serif font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/portfolio/m.png">
 </head>
@@ -15,143 +15,137 @@
         <nav class="navbar container">
             <a href="#home" class="logo">Rutuja Kawade</a>
             <ul class="nav-links">
-                <li><a href="#about">about</a></li>
-                <li><a href="#education">education</a></li>
-                <li><a href="#experience">experience</a></li>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#achievements">achievements</a></li>
-                <li><a href="resume.pdf" target="_blank">cv</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="resume.pdf" target="_blank" class="nav-btn">CV</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="container">
-        <!-- Hero / About Section combined -->
+        <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-content">
                 <h1 class="name-title">Rutuja Kawade</h1>
-                <p class="subtitle">MS in Computer Science @ Georgia Tech · Atlanta, GA</p>
+                <p class="subtitle">Software Engineer | AI Systems | Cloud Infrastructure</p>
                 <p class="bio">
                     Hi, I'm Rutuja. I'm an MS CS student at Georgia Tech, specializing in Computing Systems and Machine Learning. 
                     I have three years of industry experience as a Software Development Engineer II at Rakuten Symphony, 
                     where I built scalable Kubernetes-native platforms. Currently, I'm at Kroger Technology & Digital working on intelligent ops automation.
                 </p>
-                <p class="bio">
-                    My interests span across software engineering, distributed systems, data science, and open source technologies. 
-                    I am passionate about building scalable, secure systems that create real-world impact.
-                </p>
                 <div class="contact-links">
-                    <p>Reach me at <a href="mailto:rutujakawade24@gmail.com">rutujakawade24@gmail.com</a>, or through the links below.</p>
                     <div class="socials">
-                        <a href="mailto:rutujakawade24@gmail.com" class="social-icon">Email</a>
-                        <a href="https://linkedin.com/in/rutujakawade/" target="_blank" class="social-icon">LinkedIn</a>
-                        <a href="https://github.com/rutujak24" target="_blank" class="social-icon">GitHub</a>
+                        <a href="mailto:rutujakawade24@gmail.com" class="btn btn-primary">Email Me</a>
+                        <a href="https://linkedin.com/in/rutujakawade/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+                        <a href="https://github.com/rutujak24" target="_blank" class="btn btn-secondary">GitHub</a>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
-                <!-- Image blends seamlessly due to no borders in CSS -->
                 <img src="assets/img/rutuja.jpeg" alt="Rutuja Kawade">
             </div>
         </section>
 
         <!-- Education Section -->
         <section id="education" class="section">
-            <h2 class="section-title">education</h2>
+            <h2 class="section-title">Education</h2>
             <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
+                <div class="card timeline-card">
+                    <div class="card-header">
                         <h3>Georgia Institute of Technology</h3>
-                        <p class="role">MS in Computer Science</p>
-                        <p class="date">2024 - 2026</p>
-                        <p>Specialization: Computing Systems & Machine Learning • Graduate Teaching Assistant</p>
-                        <p>GPA: 3.7/4.0</p>
+                        <span class="date">2024 - 2026</span>
                     </div>
+                    <p class="role">MS in Computer Science</p>
+                    <p class="details">Specialization: Computing Systems & Machine Learning • Graduate Teaching Assistant</p>
+                    <p class="highlight">GPA: 3.7/4.0</p>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
+                <div class="card timeline-card">
+                    <div class="card-header">
                         <h3>Pune Institute of Computer Technology</h3>
-                        <p class="role">B.E. in Computer Engineering (Hons. in Data Science)</p>
-                        <p class="date">2018 - 2022</p>
-                        <p>GPA: 9.3/10.0</p>
+                        <span class="date">2018 - 2022</span>
                     </div>
+                    <p class="role">B.E. in Computer Engineering (Hons. in Data Science)</p>
+                    <p class="highlight">GPA: 9.3/10.0</p>
                 </div>
             </div>
         </section>
 
         <!-- Experience Section -->
         <section id="experience" class="section">
-            <h2 class="section-title">experience</h2>
+            <h2 class="section-title">Experience</h2>
             <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
+                <div class="card timeline-card">
+                    <div class="card-header">
                         <h3>Kroger Technology & Digital (via IBM)</h3>
-                        <p class="role">Software Development Engineer</p>
-                        <p class="date">June 2026 – Present</p>
-                        <ul>
-                            <li>Building <strong>KOAP</strong>, an AI-powered enterprise ops agent platform that automates data pipeline failure detection, root cause analysis, and incident routing.</li>
-                            <li>Integrated with ServiceNow, Microsoft Teams, and Kroger's internal LLM gateway (KrAIG) using Python, CrewAI multi-agent orchestration, FastAPI, PostgreSQL, and FAISS.</li>
-                            <li>Developing <strong>Talent Compass</strong>, an enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</li>
-                        </ul>
+                        <span class="date">June 2026 – Present</span>
                     </div>
+                    <p class="role">Software Development Engineer</p>
+                    <ul class="task-list">
+                        <li>Building <strong>KOAP</strong>, an AI-powered enterprise ops agent platform that automates data pipeline failure detection, root cause analysis, and incident routing.</li>
+                        <li>Integrated with ServiceNow, Microsoft Teams, and Kroger's internal LLM gateway (KrAIG) using Python, CrewAI multi-agent orchestration, FastAPI, PostgreSQL, and FAISS.</li>
+                        <li>Developing <strong>Talent Compass</strong>, an enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</li>
+                    </ul>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
+                <div class="card timeline-card">
+                    <div class="card-header">
                         <h3>Rakuten Cloud (Robin.io)</h3>
-                        <p class="role">Software Engineer II</p>
-                        <p class="date">July 2022 – July 2025</p>
-                        <ul>
-                            <li>Worked on private cloud infrastructure and delivered Cloud Native Storage (CNS) to Google Marketplace with optimized installer and operator code used across 40,000+ installations.</li>
-                            <li>Developed quorum-based replication for PostgreSQL, migrating from master-slave to leaderless architecture to improve fault tolerance and write availability.</li>
-                            <li>Enhanced planner with asyncio parallelization and Python GIL optimizations, enabling 200% increase in cluster capacity.</li>
-                        </ul>
+                        <span class="date">July 2022 – July 2025</span>
                     </div>
+                    <p class="role">Software Engineer II</p>
+                    <ul class="task-list">
+                        <li>Worked on private cloud infrastructure and delivered Cloud Native Storage (CNS) to Google Marketplace with optimized installer and operator code used across 40,000+ installations.</li>
+                        <li>Developed quorum-based replication for PostgreSQL, migrating from master-slave to leaderless architecture to improve fault tolerance and write availability.</li>
+                        <li>Enhanced planner with asyncio parallelization and Python GIL optimizations, enabling 200% increase in cluster capacity.</li>
+                    </ul>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
+                <div class="card timeline-card">
+                    <div class="card-header">
                         <h3>Microsoft</h3>
-                        <p class="role">Project Contributor</p>
-                        <p class="date">Oct 2021 – Dec 2021</p>
-                        <ul>
-                            <li>Built <strong>Kaksha</strong>, a scalable web platform for remote learning during the pandemic as part of Microsoft's Engage program.</li>
-                        </ul>
+                        <span class="date">Oct 2021 – Dec 2021</span>
                     </div>
+                    <p class="role">Project Contributor</p>
+                    <ul class="task-list">
+                        <li>Built <strong>Kaksha</strong>, a scalable web platform for remote learning during the pandemic as part of Microsoft's Engage program.</li>
+                    </ul>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
+                <div class="card timeline-card">
+                    <div class="card-header">
                         <h3>Avaya Inc</h3>
-                        <p class="role">Software Development Intern</p>
-                        <p class="date">June 2021 – Sep 2021</p>
-                        <ul>
-                            <li>Developed REST API services for Communication Manager in Spring Boot (Java).</li>
-                        </ul>
+                        <span class="date">June 2021 – Sep 2021</span>
                     </div>
+                    <p class="role">Software Development Intern</p>
+                    <ul class="task-list">
+                        <li>Developed REST API services for Communication Manager in Spring Boot (Java).</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- Projects Section -->
         <section id="projects" class="section">
-            <h2 class="section-title">projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
+            <h2 class="section-title">Projects</h2>
+            <div class="grid projects-grid">
+                <div class="card project-card">
                     <h3>KOAP - Enterprise AI Ops</h3>
-                    <p class="tags"><span>Python</span><span>CrewAI</span><span>FastAPI</span><span>Azure</span></p>
+                    <div class="tags"><span>Python</span><span>CrewAI</span><span>FastAPI</span><span>Azure</span></div>
                     <p>AI-powered enterprise operations agent platform automating data pipeline failure detection, root cause analysis, and incident routing.</p>
                 </div>
-                <div class="project-card">
+                <div class="card project-card">
                     <h3>Talent Compass</h3>
-                    <p class="tags"><span>Django</span><span>ReactJS</span><span>Kubernetes</span></p>
+                    <div class="tags"><span>Django</span><span>ReactJS</span><span>Kubernetes</span></div>
                     <p>Enterprise workforce planning platform using LLM-assisted recommendations to analyze cost impact across 30,000+ employees.</p>
                 </div>
-                <div class="project-card">
+                <div class="card project-card">
                     <h3>FileSync</h3>
-                    <p class="tags"><span>C++</span><span>gRPC</span><span>Protobuf</span></p>
+                    <div class="tags"><span>C++</span><span>gRPC</span><span>Protobuf</span></div>
                     <p>Low-latency distributed file synchronization system with bidirectional streaming RPCs, incremental updates, and anti-entropy repair.</p>
                 </div>
-                <div class="project-card">
+                <div class="card project-card">
                     <h3>Auto Certificate Generator</h3>
-                    <p class="tags"><span>Python</span><span>Excel</span></p>
+                    <div class="tags"><span>Python</span><span>Excel</span></div>
                     <p>Python script which reads from excel and auto-generates certificates from a template, distributing them via SMTP.</p>
                 </div>
             </div>
@@ -159,22 +153,22 @@
 
         <!-- Achievements Section -->
         <section id="achievements" class="section">
-            <h2 class="section-title">achievements & certifications</h2>
-            <div class="achievements-grid">
-                <div class="cert-card">
-                    <img src="assets/img/portfolio/ml (1).png" alt="Stanford ML">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <div class="grid cert-grid">
+                <div class="card cert-card">
+                    <div class="img-wrapper"><img src="assets/img/portfolio/ml (1).png" alt="Stanford ML"></div>
                     <h4>Stanford ML</h4>
                 </div>
-                <div class="cert-card">
-                    <img src="assets/img/portfolio/aws.png" alt="AWS ML">
+                <div class="card cert-card">
+                    <div class="img-wrapper"><img src="assets/img/portfolio/aws.png" alt="AWS ML"></div>
                     <h4>AWS Machine Learning</h4>
                 </div>
-                <div class="cert-card">
-                    <img src="assets/img/portfolio/IBM1.png" alt="IBM Python Data Science">
+                <div class="card cert-card">
+                    <div class="img-wrapper"><img src="assets/img/portfolio/IBM1.png" alt="IBM Python Data Science"></div>
                     <h4>IBM Python Data Science</h4>
                 </div>
-                <div class="cert-card">
-                    <img src="assets/img/portfolio/pcap.png" alt="PCAP Python">
+                <div class="card cert-card">
+                    <div class="img-wrapper"><img src="assets/img/portfolio/pcap.png" alt="PCAP Python"></div>
                     <h4>PCAP Python</h4>
                 </div>
             </div>
